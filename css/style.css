@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #ccc;
+}
+/* bizarro o que ouve aqui, basicamente a borda se tornou a referencia de margin da minha lista, baita de uma gabiarra */
+.cabecario {
+    background-image: url(../img/bg-3.jpg);
+    height: 550px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+
+}
+
+.cabecario .cabecario__navegacao .cabecario__lista {
+    text-align: right;
+    margin: 1rem 1rem 0 0;
+}
+
+.cabecario .cabecario__navegacao .cabecario__lista .cabecario__item {
+    display: inline-block;
+    border: 1px solid #fff;
+    margin-right: 5px;
+}
+
+/* De inicio não entidi o porque de ele por um display block */
+.cabecario .cabecario__navegacao .cabecario__lista .cabecario__item a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0,0,0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cabecario .cabecario__navegacao .cabecario__lista .cabecario__item a:hover {
+    transition: 300ms;
+    background-color:rgba(0,0,0, 0.5)
+}
+
+.cabecario .cabecario__box {
+    text-align: center;
+    width: 48%;
+    color: #fff;
+    margin: 7rem auto;
+    text-transform: uppercase;
+}
+
+.cabecario .cabecario__box p {
+    display: inline-block;
+    padding: 1rem;
+    background-color: #04000050;
+    border-bottom: 2px solid #fff;
+    text-transform: initial;
+    font-size: 1.5rem
+}
+
+.cabecario .cabecario__box h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: 3px 3px 1px #333;
+    padding-bottom: 4rem;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-section {
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.content-section .card {
+    display: inline-block;
+    width: 31.5%;
+    margin: 0rem 0.5rem; 
+    background-color: #040000;
+}
+
+.content-section .card p {
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.content-section .card img {
+    width: 100%;
+}
+
+.content-section .content__aticle .content__header .content__title {
+    padding: 0.5rem;
+    background-color: #eee;
+    border-bottom: 2px solid #666;
+}
+
+.content-section .content__aticle .content__paragraph {
+    padding-top: 1rem;
+}
+
+.rodape {
+    height: 80px;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: #04000057;
+    color: #fff;
+    text-shadow: 3px 3px 1px #333;
+   line-height: 80px;  /*ganbiarra, manerira de centralizar na vertical.*/
+}
