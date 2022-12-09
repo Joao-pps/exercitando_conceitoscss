@@ -7,4 +7,4 @@ Olá tudo bem, aqui e apenas um sinples projeto de um exercicio proposto pelo pr
 
 ## Aprendizados
 
-pode-se dizer que eu queria, realmente queria, utilizar o display flex, mas ja que e um curso introdutorio resolvi utilizar os assuntos que foram abordados nas aulas anteriores.
+os aprendizados que eu obtive nesse exercicio foi entender de uma maneira teorica e pratica dos tipos de display, os display basicos. Minha dificuldade foi tentar inplementar seguindo o que foi aprendido nas aulas anteriores, queria muito utilizar o flex box, só que resolvi fazer da forma que foi instruida.
